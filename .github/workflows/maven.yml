@@ -41,7 +41,7 @@ jobs:
       with:
         jaguarPortalProjectKey: 1051320a-392b-4edb-a3b9-01abfb710f91
         jaguarPortalHostUrl: https://jaguarportal.azurewebsites.net/
-        jaguarPortalClientId: 2F2392AB70F21E2CFE80CC420B8CCDA3
+        jaguarPortalClientId: 58E10B3EC137B6F6E4D8B9B694EC8264
         jaguarPortalClientSecret: ${{ secrets.jaguarPortalClientSecret }}
         jaguarPortalAnalysisPath: /target
     - name: Upload Artifact
