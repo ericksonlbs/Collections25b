@@ -39,9 +39,9 @@ jobs:
       uses: ericksonlbs/jaguarportal-submit@v0.0.1-snapshot
       if: failure()
       with:
-        jaguarPortalProjectKey: 1051320a-392b-4edb-a3b9-01abfb710f91
+        jaguarPortalProjectKey: 099f96b6-0fff-4a65-9776-2987a8c46958
         jaguarPortalHostUrl: https://jaguarportal.azurewebsites.net/
-        jaguarPortalClientId: 58E10B3EC137B6F6E4D8B9B694EC8264
+        jaguarPortalClientId: FD50DD4D7C867BFE6A21FB03792B59E0
         jaguarPortalClientSecret: ${{ secrets.jaguarPortalClientSecret }}
         jaguarPortalAnalysisPath: /target
     - name: Upload Artifact
